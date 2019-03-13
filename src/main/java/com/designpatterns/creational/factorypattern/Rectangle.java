@@ -1,6 +1,6 @@
 package com.designpatterns.creational.factorypattern;
 
-public class Rectangle implements Shape{
+ class Rectangle implements Shape{
 
 	public void draw() {
 		System.out.println("Inside Rectangle::draw() method.");

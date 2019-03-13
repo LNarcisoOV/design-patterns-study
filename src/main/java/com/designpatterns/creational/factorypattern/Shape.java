@@ -1,5 +1,5 @@
 package com.designpatterns.creational.factorypattern;
 
-public interface Shape {
+ interface Shape {
 	public void draw();
 }
