@@ -1,4 +1,4 @@
-package com.designpatterns.creational.adapter;
+package com.designpatterns.structural.adapter;
 
 class AudioPlayer implements MediaPlayer {
 	MediaAdapter mediaAdapter;

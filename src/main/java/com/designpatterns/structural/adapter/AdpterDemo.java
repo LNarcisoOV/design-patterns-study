@@ -1,4 +1,4 @@
-package com.designpatterns.creational.adapter;
+package com.designpatterns.structural.adapter;
 
 class AdpterDemo {
 	public static void main(String... args) {
