@@ -1,17 +1,19 @@
-package com.designpatterns.creational.abstractfactorypattern;
+package com.designpatterns.creational.factory;
 
-class ShapeFactory extends AbstractFactory {
+ class ShapeFactory {
 
-	@Override
-	Shape getShape(String shapeType) {
+	public Shape getShape(String shapeType) {
 		if (shapeType == null) {
 			return null;
 		}
 		if (shapeType.equalsIgnoreCase("CIRCLE")) {
 			return new Circle();
+
 		} else if (shapeType.equalsIgnoreCase("RECTANGLE")) {
 			return new Rectangle();
+
 		}
+
 		return null;
 	}
 

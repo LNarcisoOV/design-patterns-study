@@ -1,4 +1,4 @@
-package com.designpatterns.creational.factorypattern;
+package com.designpatterns.creational.factory;
 
  class Rectangle implements Shape{
 

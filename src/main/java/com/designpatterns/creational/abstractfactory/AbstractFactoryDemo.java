@@ -1,7 +1,10 @@
-package com.designpatterns.creational.abstractfactorypattern;
+package com.designpatterns.creational.abstractfactory;
 
 class AbstractFactoryDemo {
 	public static void main(String args[]) {
+		
+		System.out.println("Example of AbstractFactoryPattern.");
+		
 		AbstractFactory shapeFactory = FactoryProducer.getFactory(false);
 		AbstractFactory roundedShapeFactory = FactoryProducer.getFactory(true);
 		

@@ -1,7 +1,8 @@
-package com.designpatterns.creational.singletonpattern;
+package com.designpatterns.creational.singleton;
 
-class SingletonPatternDemo {
+class SingletonDemo {
 	public static void main(String args[]){
+		System.out.println("Example of SingletonPattern.");
 		SingletonObject singletonObject = SingletonObject.getInstance();
 		singletonObject.showMessage();
 	}

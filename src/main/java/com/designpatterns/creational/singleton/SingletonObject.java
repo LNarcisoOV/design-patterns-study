@@ -1,4 +1,4 @@
-package com.designpatterns.creational.singletonpattern;
+package com.designpatterns.creational.singleton;
 
 class SingletonObject {
 

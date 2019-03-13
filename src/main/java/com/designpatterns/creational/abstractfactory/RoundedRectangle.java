@@ -1,4 +1,4 @@
-package com.designpatterns.creational.abstractfactorypattern;
+package com.designpatterns.creational.abstractfactory;
 
 class RoundedRectangle implements Shape {
 
