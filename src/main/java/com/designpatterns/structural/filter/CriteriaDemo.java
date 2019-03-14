@@ -13,6 +13,12 @@ class CriteriaDemo {
 		persons.add(new Person("Diana", "Female", "Single"));
 		persons.add(new Person("Mike", "Male", "Single"));
 		persons.add(new Person("Bobby", "Male", "Single"));
+		persons.add(new Person("Leo", "Male", "Single"));
+		persons.add(new Person("Clara", "Female", "Single"));
+		persons.add(new Person("Peter", "Male", "Single"));
+		persons.add(new Person("Suzi", "Female", "Married"));
+		persons.add(new Person("Igor", "Male", "Married"));
+		persons.add(new Person("Cindy", "Female", "Single"));
 
 		Criteria male = new CriteriaMale();
 		Criteria female = new CriteriaFemale();
