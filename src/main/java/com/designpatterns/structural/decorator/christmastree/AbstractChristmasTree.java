@@ -1,0 +1,11 @@
+package com.designpatterns.structural.decorator.christmastree;
+
+public class AbstractChristmasTree implements ChristmasTree{
+    private ChristmasTree christmasTree;
+
+    @Override
+    public String decorate() {
+        return christmasTree.decorate();
+    }
+
+}

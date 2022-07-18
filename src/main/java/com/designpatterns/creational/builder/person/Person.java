@@ -1,4 +1,4 @@
-package com.designpatterns.creational.builder;
+package com.designpatterns.creational.builder.person;
 
 public class Person {
 
