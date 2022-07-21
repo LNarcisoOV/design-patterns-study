@@ -6,5 +6,7 @@ public class CommandMain {
         TextFileOperationExecutor executor = new TextFileOperationExecutor();
         executor.executeOperaion(new SaveTextFile(new TextFile("SaveFile.txt")));
         executor.executeOperaion(new OpenTextFile(new TextFile("OpenFile.txt")));
+        
+        executor.getTextFileActions().forEach(System.out::println);;
     }
 }
